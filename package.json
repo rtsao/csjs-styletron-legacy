@@ -1,0 +1,22 @@
+{
+  "name": "csjs-styletron",
+  "version": "0.1.0",
+  "description": "A styletron wrapper for CSJS",
+  "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+  "homepage": "https://github.com/rtsao/csjs-styletron",
+  "repository": "git@github.com:rtsao/csjs-styletron.git",
+  "bugs": "https://github.com/rtsao/csjs-styletron/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "dependencies": {
+    "csjs": "^1.0.1",
+    "styletron": "^0.2.1"
+  },
+  "devDependencies": {
+    "styletron-server": "^0.2.2",
+    "tape": "^4.5.1"
+  },
+  "license": "MIT"
+}
