@@ -7,7 +7,7 @@ function styletronWrapper() {
   var result = csjs.apply(null, arguments);
   var css = csjs.getCss(result);
   if (css) {
-    styletron.injectOnce(result.className, css);
+    styletron.injectOnce(css, result.className);
   }
   return result;
 }
