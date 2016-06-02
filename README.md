@@ -1,2 +1,2 @@
 # csjs-styletron
-A styletron wrapper for CSJS
+A [`styletron`](https://github.com/rtsao/styletron) wrapper for CSJS
